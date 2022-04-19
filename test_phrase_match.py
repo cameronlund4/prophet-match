@@ -104,7 +104,7 @@ class TestPhraseMatch(unittest.TestCase):
         )
 
     # TODO Harder test to pass, uncomment when others done
-    # def ignore_nonalpha(self):
+    # def test_ignore_nonalpha(self):
     #     """
     #     we don't want punctuation to screw us up
     #     """
