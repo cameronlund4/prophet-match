@@ -59,6 +59,12 @@ class TestPhraseMatch(unittest.TestCase):
         """
         self.assertTrue(is_phrase_match("ceo", "I think CeO is Super cool!"))
 
+    def test_weird_spacing(self):
+        """
+        match in middle
+        """
+        self.assertTrue(is_phrase_match("ceo", "I think\tCeO\tis Super cool!"))
+
     def test_multiple(self):
         """
         match with multiple
