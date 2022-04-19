@@ -15,5 +15,8 @@ def is_phrase_match(match: str, body: str) -> bool:
     Once that is working, try and get it to work ignoring non-alpha characters.
     For example, return true with match of "coo" and body of
     "I am the COO: chief operating officer!"
+
+    To run the tests, simply run "python test_phrase_match.py".
+    "python -V" should output a "3.x.x" version.
     """
     return match.lower() in body.lower()
